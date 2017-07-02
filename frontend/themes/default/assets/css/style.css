@@ -1,0 +1,1371 @@
+.ie10 .ie-50-top {
+    
+    
+  margin-top:-50px;  
+    
+}
+
+/* КОСТЫЛИ */
+
+.feed-icon , .node-readmore{
+    
+    display:none !important;
+    
+}
+
+
+.node-news .node-readmore{
+    
+    display:block !important;
+    
+}
+
+.username {
+
+display:none !important;
+}
+
+.view #page-title {
+    
+    display:none;
+    
+    
+}
+
+.field-items {
+    
+    
+    margin-bottom:30px;
+    
+}
+
+/* BOOTSTRAP OVERRIDE */
+
+
+.navbar {
+    
+    min-height:inherit; 
+    background: url(../img/menu_podlojka.png) no-repeat; 
+    background-position:center top;
+    max-width:588px;
+    padding:0 20px;
+   
+     /* height:38px; */
+    
+    z-index:250;
+   
+
+}
+
+.navbar-inner {
+    
+    background:none;
+    border:none;
+    min-height: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -moz-box-shadow: none;
+    box-shadow:  none;
+    
+   
+    
+}
+
+.navbar-inner .container {
+    
+     text-align:center;
+    
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    
+    background: none ;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    
+} 
+.navbar .nav > li > a {
+    
+    text-shadow:none;
+    font-size:21px;
+    padding:9px 15px;
+    
+}
+
+.btn.btn-navbar {
+    
+    background:none !important;
+    padding:5px !important;
+    
+   
+}
+
+.navbar-inner ul {
+    
+    list-style:none;
+    list-style-image:none;
+    list-style-type:none;
+    
+}
+
+.btn-navbar .icon-bar {
+    
+   color: #472429 !important;
+    background: #472429 !important;
+    
+}
+
+.breadcrumb {
+    
+    background:none;   
+    
+
+}
+
+
+
+/* MAIN MENU STARTS */
+
+ul#main-menu  {
+    
+    display:table;
+    width:100%;
+    margin:0;
+    padding:0
+    
+}
+
+ul#main-menu  li {
+   
+    text-align:center;
+ display:table-cell; 
+    display:inline-block;
+    *display:inline;
+ float:none;
+    
+    
+}
+
+ul#main-menu  li a {
+
+color:#472429; 
+
+}
+
+ul#main-menu  li a:hover {
+    
+ color:#fff;   
+    
+    
+}
+
+
+/* MAIN MENU ENDS */
+
+
+
+
+/* BOOTSTRAP OVERRIDE END */
+
+html, head {
+    
+/* height:100%;   
+    */
+    
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+.background_nice {
+    
+ min-height:100%;
+    width:100%;
+    padding:0;
+    margin:0;
+   
+    position:absolute;
+   
+    top:0;
+    left:0;
+    
+    overflow:hidden;
+    
+
+    
+    
+    
+}
+
+.background_nice table tr td {
+    
+    width:50%;
+    
+}
+
+
+h2 a {
+    
+    text-decoration:none;
+    
+}
+
+.onTop {
+    
+    background: #612930;
+    padding:10px 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=65); /* IE 5.5+*/
+    -moz-opacity: 0.65; /* Mozilla 1.6 и ниже */
+    -khtml-opacity: 0.65; /* Konqueror 3.1, Safari 1.1 */
+    opacity: 0.65; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9+ */
+    
+    padding:10px 15px;
+    
+    position:fixed;
+    bottom:20px;
+    left:20px;
+
+    display:none;
+}
+
+a:hover .onTop {
+    
+       
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100); /* IE 5.5+*/
+-moz-opacity: 1; /* Mozilla 1.6 и ниже */
+-khtml-opacity: 1; /* Konqueror 3.1, Safari 1.1 */
+opacity: 1; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9+ */
+    
+    
+}
+/*
+@font-face { 
+  font-family:'Parangon210C' ;
+            font-style: normal;
+  font-weight: 400;
+    src: local('Parangon210C'), url('font/Parangon_210C.woff') format('woff'); 
+
+
+}
+
+@font-face { 
+  font-family:'Parangon310C' ;
+            font-style: normal;
+  font-weight: 400;
+    src: local('Parangon310C'), url('font/Parangon_310C.woff') format('woff'); 
+
+
+}
+
+@font-face { 
+  font-family:'Parangon410C' ;
+            font-style: normal;
+  font-weight: 400;
+    src: local('Parangon410C'), url('font/Parangon_410C.woff') format('woff'); 
+
+
+}
+*/
+
+
+
+@font-face { 
+    
+    font-family:'Parangon310C' ; src: url('../font/Parangon_310C.otf') ; 
+
+} 
+
+@font-face { 
+    
+    font-family:'Parangon210C' ; src: url('../font/Parangon_210C.otf'); 
+
+} 
+
+@font-face { 
+    
+    font-family:'Parangon410C' ; src: url('../font/Parangon_410C.otf');
+
+}
+
+
+h1 {
+    
+ font-size:20px;   
+    
+}
+h2 {
+    
+ font-size:19px;   
+    margin-top:0;
+}
+
+h3 {
+    
+ font-size:18px;   
+    
+}
+
+
+h1, h2 {
+    
+    font-family:'Parangon410C';
+    font-weight:400;
+   /* text-transform:uppercase; */
+   
+    
+}
+
+h3 {
+    
+    font-family: 'Parangon410C';
+     font-weight:400;
+}
+
+h3 {
+    
+    
+ text-transform:uppercase;
+    
+}
+
+body, html {
+    
+    background:#582e33 url(../img/bg_105.jpg) ;/*url(../img/bg.gif), url("../img/top_grad.png") no-repeat center top;
+   /* background-image: ; */
+     font-family: 'Parangon210C';
+    font-size:17px;
+    color:#FFF;
+   /* background-image: url(../img/top_grad.png);/*, url(../img/bg.gif);*/
+   /* background-position: center top;
+    background-repeat: no-repeat;*//*, repeat;*/
+    min-height:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    
+}
+
+#main_menu_navbar , .chartebars_date {
+    
+    font-family: 'Parangon310C';
+    
+}
+
+.fullwrapper {
+    
+    
+   height:100% ;
+   /* background:url(../img/bg_20_1240.jpg) repeat-x;
+   */
+    
+    
+}
+
+.full1280 {
+    
+ /*   background:url(../img/bg_full.jpg) no-repeat center top;   
+    */
+    
+    
+    
+    width:100%;
+    max-width:1280px;
+    min-height:100%;
+    margin:0;
+    padding:0;
+    margin:auto;
+}
+
+a {
+    
+    color:#FFF;
+    text-decoration:underline;
+    
+}
+
+a:hover {
+ 
+    color:#bc8116;
+    text-decoration:none;
+    
+}
+
+a:focus {
+    
+    color:#FFF;    
+    
+    
+}
+
+#globalwrap {
+    /*min-height:100%;*/
+    position:relative;
+   
+    /*min-height:920px;*/
+    padding:20px;
+    margin:auto;
+    
+    
+   /* background:url(../img/boobles.png) no-repeat;
+    */
+}
+
+
+
+
+#main, #header, #footer {
+    
+    max-width:1000px;
+    
+    margin:auto;
+    
+    
+}
+
+
+
+
+#main, #header {
+    
+ padding:20px;   
+    
+}
+
+p {
+    
+   line-height:140%; 
+    
+}
+
+.texts p {
+
+    font-size:18px;
+    text-align:left;
+    
+    
+}
+
+img.logo {
+    
+ text-align:center;
+    margin:auto;
+}
+
+/*#main_menu {
+    
+    background:url(img/menu_podlojka.png) no-repeat;
+    max-width:
+    
+}*/
+
+.main_menu .navbar-inner{
+    margin-top:30px;
+ display:inline-block;
+    *display:inline;
+   font-family: 'Parangon310C';
+    font-size:18px;
+    background:url(../img/menu_podlojka.png);
+    
+    
+}
+
+#footer {
+ 
+
+    bottom:0;
+    width:100%;
+    
+    line-height:130%;
+    background:#582e33 url(../img/bg_105.jpg);
+    
+}
+
+strong {
+    
+    font-family:'Parangon310C';
+    font-weight:400 !important;
+    
+    
+}
+
+.main_menu .navbar-inner {
+    background:none;/*#906f0d url(../img/menu_podlojka.png); url(../img/podlojka_grad.png) repeat-y;*/
+    background-position:center;
+/* background:#906f0d ; */
+    border:none;
+    padding:0;
+    min-width:628px;
+    min-height:0;
+    -webkit-border-radius: 0;
+    -moz-border-radius:0;
+    border-radius: 0;
+    
+} 
+
+.main_menu .navbar-inner ul {
+ width:100%;   
+    
+}
+
+.main_menu .navbar-inner li {
+ width:25%; 
+    
+}
+}
+
+
+/*
+.main_menu*/ .navbar-inner li  a {
+    
+    color:#472429;
+    text-shadow:none;
+    padding:3px 25px 0 25px;
+    
+}
+/**********************************************************************************/
+
+#main_menu_navbar {
+    
+    margin:auto;
+    min-height:38px;
+    
+    
+}
+
+
+/**********************************************************************************/
+
+
+#main_menu_navbar li.active a {
+    color:#472429;
+    background:none;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    box-shadow:none;
+}
+
+.main_menu .navbar-inner li.active a:hover {
+    
+    background:none;
+     color:#FFF;
+     -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    box-shadow:none;
+}
+
+.main_menu .navbar-inner li  a:hover {
+    
+   color:#fff;
+    
+}
+
+#header {
+    
+ text-align:center;   
+    
+}
+
+.tab_menu {
+    margin:auto;
+    margin-top:20px;
+ background:url(../img/menu_podlojka.png) no-repeat;   
+    
+}
+
+.item_menu {
+    
+    margin:auto;
+    background:url(../img/item_podlojka.png) no-repeat;
+    width:196px;
+    height:23px;
+    overflow:hidden;
+    text-align:center;
+    padding:8px 0;
+    
+}
+
+.tab_menu  a , .item_menu  a {
+    
+   color:#472429;
+    text-decoration:none;
+    text-shadow:none;
+    padding:3px 25px 0 25px;
+    
+}
+
+.tab_menu  a:hover, .item_menu  a:hover {
+    
+   color:#FFF;
+    
+}
+
+.main_slider {
+    
+    position:relative;
+    min-height:741px;
+    margin:40px 0 ;
+    
+}
+
+
+
+a.tl {
+    
+    float:left;
+    
+}
+
+a.tr {
+    
+    float:right;
+    padding-right:10px;
+}
+
+a.bl {
+    
+   float:left; 
+}
+
+a.br {
+    
+   float:right; 
+    padding-right:10px;
+}
+
+
+a.tl div, a.tl:hover div, a.tr div  , a.tr:hover div , a.bl div , a.bl:hover div , a.br div , a.br:hover div {
+    
+    background-repeat:no-repeat !important;
+    background-position:bottom center;
+    position:relative;
+    z-index:100;
+   
+    vertical-align:bottom;
+    text-align:center;
+      
+}
+
+
+a.tl div .image1,
+a.tr div .image1,
+a.bl div .image1,
+a.br div .image1 {
+    
+    display:block;
+    
+}
+
+a.tl div .image2,
+a.tr div .image2,
+a.bl div .image2,
+a.br div .image2 {
+    
+    display:none;
+    
+}
+
+a.tl:hover div .image1,
+a.tr:hover div .image1,
+a.bl:hover div .image1,
+a.br:hover div .image1 {
+    
+    display:none;
+    
+}
+
+a.tl:hover div .image2,
+a.tr:hover div .image2,
+a.bl:hover div .image2,
+a.br:hover div .image2 {
+    
+    display:block;
+    
+}
+
+
+
+
+a.tl div {
+    
+    float:left;
+   width:282px;
+    height:318px;
+   /*  background:url(../img/icons4/charte_bars_passive.png);
+    */
+}
+
+a.tl:hover div {
+    
+   /* background:url(../img/icons4/charte_bars_active.png); */
+}
+
+a.tr div {
+    
+    float:right;
+     width:282px;
+    height:318px;
+    /* background:url(../img/icons4/charte_news_passive.png);*/
+}
+
+a.tr:hover div {
+    /* 
+    background:url(../img/icons4/charte_news_active.png);
+    */
+}
+
+a.bl div {
+    
+   float:left;
+     width:311px;
+    height:266px;
+   /* background:url(../img/icons4/karta_bara_passive.png); */
+}
+
+a.bl:hover div {
+        /*
+    background:url(../img/icons4/karta_bara_active.png); */
+    
+}
+
+a.br div {
+    
+    float:right;
+     width:311px;
+    height:266px;
+    /*background:url(../img/icons4/gallery_passive.png);*/
+}
+
+a.br:hover div {
+    
+    /*  background:url(../img/icons4/gallery_active.png);*/
+}
+
+#myCarousel {
+    
+    margin:auto;
+    max-width:663px;
+    text-align:center;
+    
+}
+
+.carousel-indicators {
+ 
+    position:relative;    
+    
+}
+
+.carousel-indicators li, a.nivo-control {
+    display:none !important;
+    float:none !important;
+  /*  display:inline-block !important; */ 
+    display:none !important;
+    
+    background:url(../img/bubble.png) !important;
+    width:23px !important;
+    height:24px !important;
+    
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=30) !important; /* IE 5.5+*/
+    -moz-opacity: .3 !important; /* Mozilla 1.6 и ниже */    
+    -khtml-opacity: .3 !important; /* Konqueror 3.1, Safari 1.1 */
+    opacity: .3 !important; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9+ */
+
+    
+}
+
+.carousel-indicators li.active, a.nivo-control.active {
+    
+   background:url(../img/bubble.png) !important;
+    
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100) !important; /* IE 5.5+*/
+    -moz-opacity: 1 !important; /* Mozilla 1.6 и ниже */    
+    -khtml-opacity:1 !important; /* Konqueror 3.1, Safari 1.1 */
+    opacity: 1 !important; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9+ */
+    
+}
+
+.impossibleDIV_cont {
+    
+    padding-top:90px;
+    background-repeat:no-repeat;
+   
+    
+    
+}
+
+.impossibleDIV {
+    
+    position:relative;
+    
+    
+}
+
+.impossibleDIV img:first-child {
+    
+   z-index:40;
+    
+    
+}
+
+.impossibleDIV img:last-child {
+    
+    margin-top:-513px;
+     z-index:100;
+    
+}
+
+/* 23.10.2013 */
+
+#menu-bar ul li {
+    
+    float:left;
+    
+}
+
+/**************************************************************************/
+
+@media (max-width: 588px) {
+    
+    ul#main-menu  {
+    
+        display:block;
+        width:100%;
+        margin:0;
+        padding:0
+        
+    }
+    
+     ul#main-menu li {
+    
+        display:block;
+        
+        
+    }
+    
+    ul#main-menu li a {
+        
+     background:url(../img/item_podlojka_non_active.png) no-repeat; 
+    background-position:center;
+        
+    }
+
+    #main_menu_navbar .navbar-inner {
+    
+    margin-bottom:40px;   
+    
+    }
+
+    #main_menu_navbar .navbar-inner {
+        
+        margin-bottom:40px;   
+    
+    }
+     #main_menu_navbar .navbar-inner a {
+    
+     color:#d7b85a;
+    
+}
+    
+    
+}
+
+/* ПОДМЕНЮ "КАРТА БАРА" */
+#highlighted {
+    
+ font-family: 'Parangon310C'; 
+ margin-bottom:50px;   
+    
+}
+
+#highlighted h2 {
+    
+    display:none;
+    font-size:1px;
+
+    
+}
+
+/*#block-menu-menu-karta-bara ul.menu {*/
+#highlighted ul.menu {
+    
+    
+   display:table;
+    
+    margin:0;
+    margin:auto;
+    padding:0
+    
+}
+
+/*#block-menu-menu-karta-bara ul.menu li {*/
+#highlighted ul.menu li {
+    
+/* display:table-cell;  */
+    
+    display:inline-block;
+    *display:inline;
+    
+}
+
+
+.kartadiv h4 {
+    
+    
+ width:  643px;
+    text-align:center;
+    height: 41px;
+    text-transform:uppercase;
+    background:url(../img/catalog/podlojka_nazva.png) no-repeat;
+    background-position:center;
+    padding-top:17px;
+    font-family: 'Parangon310C';
+    font-weight:400;
+    
+}
+
+.cena {
+    
+font-family: 'Parangon410C' ;
+    
+}
+
+.kartadiv h4 .nobold {
+    
+     font-family: 'Parangon210C' !important;
+    
+}
+
+
+.kartadiv .prices table {
+    
+    width:100%; 
+    border:none;
+    border-collapse:collapse;
+    
+}
+
+.kartadiv .prices table tr td {
+    
+ vertical-align:bottom;  
+    
+}
+
+
+tbody {
+    
+ border:none;   
+}
+.kartadiv .prices table tr td:first-child {
+    
+    text-align:center;
+    padding:2px;
+    width:27px;
+    
+}
+
+
+.kartadiv .prices table tr td:last-child .cena {
+    
+    width:90px;
+    min-height:23px;
+    
+    background:url(../img/podlojka_ceny.png) no-repeat;
+    text-align:center;
+   padding-top:4px;
+    margin-bottom:-2px;
+    
+    background-size:100% 100%;
+    
+    color:#4c262a;
+    
+    
+}
+.golden_date {
+ background:url(../img/podlojka_date.png) no-repeat;
+    padding:6px 0;
+    width:128px;
+    overflow:hidden;
+    text-align:center;
+    color:#3a1d22;
+    margin-left:-15px;
+}
+
+.view-id-charte_bars .golden_date {
+    
+    display:none;
+ background:none;
+    color:#FFF;
+    font-size:14px;
+    
+}
+/*
+.view-id-charte_bars .node-charte-bars .content{
+    
+ width:80%;
+float:right;
+    
+    
+}
+
+.view-id-charte_bars .node-charte-bars .content img{
+    
+max-width:98%;
+    
+    
+    
+}
+
+.view-id-charte_bars .node-charte-bars h2 {
+    
+ width:19%;
+ float:left;
+    padding-top:10px;
+    
+}
+
+.chartebars_date {
+    
+     width:19%;
+ float:left;
+    
+}
+
+.view-id-charte_bars .node-charte-bars .content h2 {
+    
+ float:none;
+width:inherit;
+    
+    
+}*/
+
+/*#block-menu-menu-karta-bara li a { */
+#highlighted  li a {
+    
+    
+    
+    text-transform:uppercase;
+    font-weight:700;
+    text-decoration:none;
+   
+    text-align:center;
+    
+   
+}
+
+/*#block-menu-menu-karta-bara ul { */
+#highlighted .active-trail a {    
+ text-align:center;   
+    
+}
+
+/*#block-menu-menu-karta-bara .active-trail a { */
+#highlighted  .active-trail a {
+    padding:0;
+    min-width:60px;
+    
+}
+
+
+
+#highlighted ul.menu li {
+    
+    vertical-align:middle;
+    padding:0 10px;
+}
+
+#block-menu-menu-karta-bara li.active-trail {
+    padding:6px 10px;
+   //  background:url(../img/podlojki/podlojka_nobg.png) no-repeat;
+ //   background-size:100% 100%;
+    
+    
+}
+
+.active-trail table {
+    
+    
+    margin:auto;
+    
+}
+
+
+.active-trail table td {
+    
+    
+   padding:0;
+    
+}
+
+
+.active-trail table td:first-child {
+    
+    
+   background:url(../img/podlojki/podlojka_nobg_left.png) no-repeat;
+    width:19px;
+    height:36px;
+    
+}
+
+.active-trail table td:last-child {
+    
+    
+   background:url(../img/podlojki/podlojka_nobg_right.png) no-repeat;
+    width:19px;
+    height:36px;
+    
+}
+
+td.iCont {
+   background:url(../img/podlojki/podlojka_nobg_center.png) no-repeat;
+    background-size:100% 36px;
+    
+    
+}
+
+#block-menu-menu-karta-bara a.active-trail {
+    
+    
+ 
+    background-size:100% 36px ;
+    padding:0;
+}
+
+/*#block-menu-menu-karta-bara a.active-trail::after {
+    
+    
+ content:url(../img/podlojki/podlojka_nobg_right.png); 
+    
+}
+
+#block-menu-menu-karta-bara a.active-trail::before {
+    
+    
+ content:url(../img/podlojki/podlojka_nobg_left.png); 
+    
+}*/
+
+#block-menu-menu-karta-bara a {
+    
+    color:#d7b85a;
+    
+}
+
+.pager li > a {
+    
+ border:none;
+    background:none;
+    
+    padding:0;
+}
+
+.pager li > a:hover {
+    
+ border:none;
+    background:none;
+    
+    
+}
+
+
+/*OVER 1280 problem */
+
+.full1280 {
+    
+max-width:1280px;
+width:100%;
+/*background:url(../img/bg_1.jpg) repeat-y;*/
+background-position:top center;    
+    position:relative;
+    
+}
+
+.slider-wrapper img {
+    
+
+    
+    
+}
+
+@media (min-width:1281px) {
+    
+/* .full1280 {
+        
+        
+     
+        top:0;
+        left:50%;
+        margin-left:-640px;
+  
+        
+    }
+*/
+    
+}
+
+
+
+/* END OF OVER 1280 PROBLEM */
+
+/*.bottom_right_venzel {
+    
+    margin:0 30px 30px 30px;
+    
+}
+ .top_left_venzel {
+    
+ margin:30px 30px 0 30px
+    
+}
+*/
+
+.slider-wrapper {
+    
+    
+ float:right;   
+    
+}
+
+.nivoSlider {
+    
+    
+    text-align:right;   
+    background:none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    
+}
+
+.nivo-directionNav {
+    
+    
+ font-size:0;   
+    
+}
+
+.onTop {
+    
+ cursor:pointer;   
+    
+}
+
+.kartadiv .row-fluid {
+  
+    margin-bottom:30px;
+    
+}
+
+.kartadiv .span4 img {
+    
+
+    
+    max-width:280px;
+    
+    
+}
+
+#main-wrapper h2 {
+    
+ text-transform:none;   
+    
+    
+}
+
+.view-content .golden_date {
+    
+    float:left;
+    padding-right:10px;
+    
+}
+
+.node-news .golden_date {
+    
+    
+    
+}
+
+.node-news h2.nodetitle {
+    
+ margin-top:-4px;   
+    
+}
+
+.prices table p {
+    
+    
+ margin:0;   
+    
+}
+
+
+.node-readmore {
+    
+ margin-bottom:30px;   
+    
+    
+}
+
+/* Overlay styles */
+.overlay-bg {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
+  z-index: 1000;
+  background: #582e33 url('../img/bg_105.jpg');
+}
+
+.overlay-container {
+  display: none;
+  width: 660px;
+  height: 529px;
+  background: #fff url('../img/ramka_new.png');
+  position: fixed;
+  left: 50%;
+  margin: 8% 0 0 -330px;
+  cursor: default;
+  z-index: 10001;
+}
+
+.overlay-content {
+  text-align: center;
+  width: 340px;
+  margin: 180px auto;
+  color: #582e33;
+  font-family: 'Parangon210C';
+  font-size: 18px;
+}
+
+.overlay-content h2 {
+  font-family: 'Parangon410C';
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.overlay-content .buttons {
+  padding-top: 10px;
+}
+
+.overlay-content button {
+  width: 90px;
+  height: 30px;
+  background: url('../img/podlojka_ceny.png') center center no-repeat;
+  text-align: center;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  background-size: 100% 100%;
+  color: #4c262a;
+  border: none;
+}
+.overlay-content button:hover {
+  background-size: 105% 105%;
+}

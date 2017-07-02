@@ -1,0 +1,48 @@
+/*   IE 68 CSS */
+
+
+@font-face {
+    font-family: 'Parangon210C';
+    src: url('../font/Parangon_210C.eot');
+    src: local('Parangon210C'), url('../font/Parangon_210C.eot?#iefix') format('embedded-opentype'),
+         url('../font/Parangon_210C.woff') format('woff'),
+         url('../font/Parangon_210C.ttf') format('truetype'),
+         url('../font/Parangon_210C.svg#parangon_210cregular') format('svg');
+    
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Parangon310C';
+    src: url('../font/Parangon_310C.eot');
+    src: local('Parangon310C'), url('../font/Parangon_310C.eot?#iefix') format('embedded-opentype'),
+         url('../font/Parangon_310C.woff') format('woff'),
+         url('../font/Parangon_310C.ttf') format('truetype'),
+         url('../font/Parangon_310C.svg#parangon_310cregular') format('svg');
+
+
+}
+
+
+
+
+@font-face {
+    font-family:'Parangon410C';
+    src: url('../font/Parangon_410C.eot');
+    src: local('Parangon410C'), url('../font/Parangon_410C.eot?#iefix') format('embedded-opentype'),
+         url('../font/Parangon_410C.woff') format('woff'),
+         url('../font/Parangon_410C.ttf') format('truetype'),
+         url('../font/Parangon_410C.svg#parangon_410cregular') format('svg');
+   
+
+}
+
+td.iCont {
+   background:url(../img/podlojki/podlojka_nobg_center.png) repeat-x;
+ 
+    
+    
+}

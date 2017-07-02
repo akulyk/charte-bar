@@ -17,6 +17,9 @@ nbproject
 # windows thumbnail cache
 Thumbs.db
 
+# environments dir on security reason
+/environments
+
 # composer vendor dir
 /vendor
 
@@ -33,3 +36,11 @@ phpunit.phar
 
 # vagrant runtime
 /.vagrant
+
+#images
+*.ico
+*.png
+*.gif
+*.jpg
+*.jpeg
+*.psd
